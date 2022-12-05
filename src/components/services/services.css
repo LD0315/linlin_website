@@ -35,11 +35,11 @@
 
 .services__button-icon {
     font-size: 1rem;
-    transition: .3s;
+    transition: 0.3s;
 }
 
 .services__button:hover .services__button-icon {
-    transform: translateX(0.35rem);
+    transform: translate(0.25rem);
 }
 
 .services__modal {
