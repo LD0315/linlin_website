@@ -22,7 +22,7 @@ const Services = () => {
                
                     <span className="services__button" onClick={() => toggleTab(1)}>
                         View More 
-                      <i className="uil uil-arrow-right services__button-icon"></i>
+                      <i className="bx bx-right-arrow-alt services__button-icon"></i>
                     </span>
 
                     <div className={toggleState === 1 ? "services__modal active-modal" : "services__modal"}>
@@ -77,7 +77,7 @@ const Services = () => {
                
                <span className="services__button" onClick={() => toggleTab(2)}>
                    View More 
-                <i className="uil uil-arrow-right services__button-icon"></i>
+                <i className="bx bx-right-arrow-alt services__button-icon"></i>
                </span>
 
                <div className={toggleState === 2 ? "services__modal active-modal" : "services__modal"}>
@@ -131,7 +131,7 @@ const Services = () => {
                
                <span className="services__button" onClick={() => toggleTab(3)}>
                    View More 
-                  <i className="uil uil-arrow-right services__button-icon"></i>
+                  <i className="bx bx-right-arrow-alt services__button-icon"></i>
                 </span>
 
                <div className={toggleState === 3 ? "services__modal active-modal" : "services__modal"}>
