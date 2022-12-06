@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { createContext, useState } from 'react';
 import './App.css';
 import Header from './components/header/Header';
 import Home from './components/home/Home';
@@ -11,27 +11,40 @@ import Testimonials from './components/testimonials/Testimonials';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer2';
 import ScrollUp from './components/scrollup/ScrollUp';
+import ReactSwitch from 'react-switch';
 
+export const ThemeContext = createContext(null);
 
 const App = () => {
+  const [theme, setTheme] = useState("light");
+
+  const toggleTheme = () => {
+    setTheme((curr) => (curr === "light" ? "dark": "light"));
+  };
   return (
-    <>
-    <Header />
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+      <div id={theme}>
+        <Header />
 
-    <main className='main'>
-      <Home />
-      <About />
-      <Skills />
-      <Services />
-      <Qualification />
-      <Work />
-      <Testimonials />
-      <Contact />
-    </main>
+        <main className='main'>
+          <Home />
+          <div className="switch">
+            <label>{theme === "light" ? "Light Mode" : "Dark Mode"}</label>
+            <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
+          </div>
+          <About />
+          <Skills />
+          <Services />
+          <Qualification />
+          <Work />
+          <Testimonials />
+          <Contact />
+        </main>
 
-      <Footer />
-      <ScrollUp />
-    </>
+          <Footer />
+          <ScrollUp />
+      </div>
+    </ThemeContext.Provider>
   );
 }
 
