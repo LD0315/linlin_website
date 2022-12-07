@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import "./header.css";
-import ReactSwitch from 'react-switch';
 
 const Header = () => {
      /* Change Background Header */
