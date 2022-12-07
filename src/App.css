@@ -64,9 +64,6 @@
   height: 100px;
   justify-content: center;
   align-items: center;
-  position: fixed;
-  left: 600px;
-  bottom: 852px;
   z-index: var(--z-modal);
 }
 
@@ -74,6 +71,7 @@
   margin: 10px;
   z-index: var(--z-modal);
 }
+
 
 #light .switch label {
   color: var(--title-color);
@@ -220,10 +218,12 @@ img {
   }
 
   .switch {
-    position: fixed;
-    bottom: 1096px;
-    left: -200px;
-    width: 100%;
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    z-index: var(--z-modal);
   }
 }
 
