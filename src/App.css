@@ -64,18 +64,23 @@
   height: 100px;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  left: 600px;
+  bottom: 852px;
+  z-index: var(--z-modal);
 }
 
 .switch label {
   margin: 10px;
+  z-index: var(--z-modal);
 }
 
 #light .switch label {
-  color: black;
+  color: var(--title-color);
 }
 
-dark .switch label {
-  color: white;
+#dark .switch label {
+  color: var(--title-color);
 }
 
 /* Responsive typography */
@@ -213,6 +218,13 @@ img {
     width: 22px;
     height: 22px;
   }
+
+  .switch {
+    position: fixed;
+    bottom: 1096px;
+    left: -200px;
+    width: 100%;
+  }
 }
 
 /* For medium devices */
@@ -227,6 +239,17 @@ img {
 
   .section__subtitle {
     margin-bottom: var(--mb-3);
+  }
+
+  .switch {
+    position: fixed;
+    bottom: -27px;
+    left: 0;
+    width: 100%;
+  }
+  
+  .switch label {
+    display: none;
   }
 }
 

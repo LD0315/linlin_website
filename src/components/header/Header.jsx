@@ -1,16 +1,8 @@
-import React, { useState, createContext } from 'react';
+import React, { useState } from 'react';
 import "./header.css";
 import ReactSwitch from 'react-switch';
 
-export const ThemeContext = createContext(null);
-
 const Header = () => {
-    /* Light / dark mode switch */
-    const [theme, setTheme] = useState("dark");
-
-    const toggleTheme = () => {
-        setTheme((curr) => (curr === "light" ? "dark": "light"));
-    };
      /* Change Background Header */
     window.addEventListener("scroll", function () {
         const header = document.querySelector(".header");
@@ -82,7 +74,6 @@ const Header = () => {
                 <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
                     <i class="uil uil-apps"></i>
                 </div>
-                <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
             </nav>
         </header>
     )
