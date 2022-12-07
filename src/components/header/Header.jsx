@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import "./header.css";
+import ReactSwitch from 'react-switch';
 
-const Header = () => {
+const Header = (props) => {
      /* Change Background Header */
     window.addEventListener("scroll", function () {
         const header = document.querySelector(".header");
@@ -14,6 +15,8 @@ const Header = () => {
       /* Toggle Menu */
     const [Toggle, showMenu] = useState(false);
     const [activeNav, setActiveNav] = useState("#home");
+
+    const onChangeTheme =  (a, b ,c) => props.toggleTheme();
 
     return (
         <header className="header">
@@ -73,6 +76,11 @@ const Header = () => {
                 <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
                     <i class="uil uil-apps"></i>
                 </div>
+
+                <div className="switch">
+            <label>{props.theme === "light" ? "Light Mode" : "Dark Mode"}</label>
+            <ReactSwitch onChange={props.toggleTheme} checked={props.theme === "dark"} />
+          </div>
             </nav>
         </header>
     )

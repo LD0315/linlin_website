@@ -240,17 +240,6 @@ img {
   .section__subtitle {
     margin-bottom: var(--mb-3);
   }
-
-  .switch {
-    position: fixed;
-    bottom: -27px;
-    left: 0;
-    width: 100%;
-  }
-  
-  .switch label {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 576px) {
