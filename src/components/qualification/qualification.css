@@ -60,6 +60,18 @@
     margin-bottom: var(--mb-1);
 }
 
+#dark .qualification__button {
+  color: #fff;
+}
+
+#dark .qualification__button:hover {
+    color: var(--title-color); 
+}
+
+#dark .qualification__title {
+    color: #fff;
+}
+
 .qualification__calendar {
     font-size: var(--small-font-size);
 }

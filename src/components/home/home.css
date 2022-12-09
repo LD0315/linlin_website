@@ -16,11 +16,6 @@
     color: var(--title-color);
 }
 
-.home__social-icon {
-    font-size: 1.25rem;
-    color: var(--title-color);
-}
-
 .home__social-icon:hover {
     color: var(--title-color-dark);
 }
@@ -52,6 +47,27 @@
     background-color: var(--text-color);
     left: 0;
     top: 1rem;
+}
+
+#dark .home__title,
+.home__subtitle {
+  color: #fff;
+}
+
+#dark .home__scroll-mouse {
+    color: #fff;
+}
+
+#dark .home__scroll-name {
+    color: #fff;
+}
+
+#dark .home__scroll-arrow {
+    color: #fff;
+}
+
+#dark .home__social-icon {
+    color: #fff;
 }
 
 .home__description {
@@ -114,6 +130,7 @@
     font-size: 1.25rem;
     color: var(--title-color);
 }
+
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */

@@ -12,6 +12,14 @@
     margin-bottom: var(--mb-1-5);
 }
 
+#dark .contact__title {
+    color: #fff;
+}
+
+#dark .contact__form-tag {
+    color: var(--title-color);
+}
+
 .contact__info {
     display: grid;
     row-gap: 1rem;
