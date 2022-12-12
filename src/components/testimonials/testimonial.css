@@ -10,6 +10,10 @@
     margin-bottom: var(--mb-3);
 }
 
+#dark .testimonial__card {
+    background-color: grey;
+}
+
 .testimonial__img {
     width: 60px;
     border-radius: 3rem;
@@ -27,7 +31,7 @@
 }
 
 #dark .testimonial__description {
-    color: var(--text-color);
+    color: var(--title-color);
 }
 
 /* Swiper Class */

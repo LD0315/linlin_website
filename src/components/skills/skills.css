@@ -11,6 +11,10 @@
     border-radius: 1.25rem;
 }
 
+#dark .skills__content {
+    background-color: grey;
+}
+
 .skills__title {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
@@ -51,7 +55,7 @@
 }
 
 #dark .skills__level {
-    color: var(--text-color);
+    color: var(--title-color);
 }
 
 /*=============== BREAKPOINTS ===============*/

@@ -34,6 +34,10 @@
     text-align: center;
 }
 
+#dark .contact__card {
+    background-color: grey;
+}
+
 .contact__card-icon {
     font-size: 2rem;
     color: var(--title-color);
@@ -55,7 +59,7 @@
 }
 
 #dark .contact__card-data {
-    color: var(--text-color);
+    color: var(--title-color);
 }
 
 .contact__button {
@@ -65,6 +69,10 @@
     align-items: center;
     justify-content: center;
     column-gap: 0.25rem;
+}
+
+#dark .contact__button {
+    color: var(--title-color);
 }
 
 .contact__button-icon {
@@ -101,6 +109,14 @@
     z-index: 1;
 }
 
+#dark .contact__form-input {
+   background-color: grey;
+}
+
+#dark .contact__form-input::placeholder {
+    color: var(--title-color);
+}
+
 .contact__form-tag {
     position: absolute;
     top: -0.75rem;
@@ -111,12 +127,25 @@
     z-index: 10;
 }
 
+#dark .contact__form-tag {
+    background-color: grey;
+    color: var(--title-color);
+}
+
 .contact__form-area {
     height: 11rem;
 }
 
 .contact__form-area textarea {
     resize: none;
+}
+
+#dark .contact__form-div input {
+    color: var(--title-color);
+}
+
+#dark .contact__form-area textarea {
+    color: var(--title-color);
 }
 
 /*=============== BREAKPOINTS ===============*/

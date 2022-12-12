@@ -11,6 +11,10 @@
     padding: 6rem 0 2rem 2.5rem;
 }
 
+#dark .services__content {
+    background-color: grey;
+}
+
 .services__icon {
     display: block;
     font-size: 2rem;
@@ -113,7 +117,7 @@
 }
 
 #dark .services__button {
-    color: var(--text-color);
+    color: var(--title-color);
 }
 
 #dark .services__modal-description {

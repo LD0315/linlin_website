@@ -7,6 +7,10 @@
     background-color: var(--body-color);
 }
 
+#dark .header {
+    background-color: var(--text-color);
+}
+
 .nav {
     height: calc(var(--header-height) + 1.5rem);
     display: flex;

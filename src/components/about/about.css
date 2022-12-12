@@ -24,6 +24,10 @@
     padding: 1rem 1.25rem;
 }
 
+#dark .about__box {
+    background-color: grey;
+}
+
 .about__icon {
     font-size: 1.5rem;
     color: var(--title-color);
