@@ -15,6 +15,10 @@
     text-transform: capitalize;
 }
 
+#dark .work__item {
+    color: #fff;
+}
+
 .work__item:hover {
     background-color: var(--title-color);
     color: var(--container-color);

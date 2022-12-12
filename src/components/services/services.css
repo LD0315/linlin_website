@@ -112,6 +112,18 @@
     font-size: var(--small-font-size);
 }
 
+#dark .services__button {
+    color: var(--title-color);
+}
+
+#dark .services__modal-description {
+    color: var(--title-color);
+}
+
+#dark .services__modal-service {
+    color: var(--title-color);
+}
+
 /* Active Modal */
 .active-modal {
     opacity: 1;
