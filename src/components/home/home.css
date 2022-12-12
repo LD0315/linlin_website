@@ -49,9 +49,12 @@
     top: 1rem;
 }
 
-#dark .home__title,
-.home__subtitle {
+#dark .home__title {
   color: #fff;
+}
+
+#dark .home__subtitle {
+    color: var(--text-color);
 }
 
 #dark .home__scroll-mouse {
@@ -59,20 +62,24 @@
 }
 
 #dark .home__scroll-name {
-    color: #fff;
+    color: var(--text-color);
 }
 
 #dark .home__scroll-arrow {
-    color: #fff;
+    color: var(--text-color);
 }
 
 #dark .home__social-icon {
-    color: #fff;
+    color: var(--text-color);
 }
 
 .home__description {
     max-width: 400px;
     margin-bottom: var(--mb-3);
+}
+
+#dark .home__description {
+    color: var(--text-color);
 }
 
 .home__img {
@@ -107,6 +114,27 @@
 
 .wheel {
     animation: scroll 2s ease infinite;
+    fill: none;
+    stroke: #000;
+    stroke-width: 20px;
+}
+
+#mouse {
+    fill: none;
+    stroke: #000;
+    stroke-width: 20px;
+}
+
+#dark .wheel {
+    fill: none;
+    stroke: var(--text-color);
+    stroke-width: 20px;
+}
+
+#dark #mouse {
+    fill: none;
+    stroke: var(--text-color);
+    stroke-width: 20px;
 }
 
 @keyframes scroll {

@@ -113,7 +113,7 @@
 }
 
 #dark .services__button {
-    color: var(--title-color);
+    color: var(--text-color);
 }
 
 #dark .services__modal-description {

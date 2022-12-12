@@ -17,7 +17,7 @@
 }
 
 #dark .contact__form-tag {
-    color: var(--title-color);
+    color: var(--text-color)
 }
 
 .contact__info {
@@ -52,6 +52,10 @@
 .contact__card-data {
     display: block;
     margin-bottom: var(--mb-0-75);
+}
+
+#dark .contact__card-data {
+    color: var(--text-color);
 }
 
 .contact__button {

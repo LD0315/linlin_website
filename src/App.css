@@ -82,6 +82,7 @@
   color: var(--title-color);
 }
 
+
 /* Responsive typography */
 @media screen and (max-width: 992px) {
   :root {
@@ -166,10 +167,14 @@ img {
   text-align: center;
 }
 
-#dark .section__title,
-.section__subtitle {
+#dark .section__title {
   color: #fff;
 }
+
+#dark .section__subtitle {
+    color: var(--text-color);
+}
+
 
 /*=============== LAYOUT ===============*/
 .container {

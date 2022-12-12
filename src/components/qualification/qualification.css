@@ -72,8 +72,20 @@
     color: #fff;
 }
 
-.qualification__calendar {
+#dark .qualification__subtitle  {
+    color: var(--text-color);
+}
+
+.qualification__calender {
     font-size: var(--small-font-size);
+}
+
+#dark .qualification__calender {
+    color: var(--text-color);
+}
+
+#dark .uil-calendar-alt {
+    color: var(--text-color);
 }
 
 .qualification__rounder {
