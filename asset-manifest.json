@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/linlin_website/static/css/main.9453bc4e.css",
+    "main.css": "/linlin_website/static/css/main.25404a72.css",
     "main.js": "/linlin_website/static/js/main.25eb231f.js",
     "static/js/787.c3723b78.chunk.js": "/linlin_website/static/js/787.c3723b78.chunk.js",
     "static/media/testimonial1-1.png": "/linlin_website/static/media/testimonial1-1.3019d32ea76e179c8b46.png",
@@ -10,12 +10,12 @@
     "static/media/testimonial2-2.jfif": "/linlin_website/static/media/testimonial2-2.4eba532a044b41ededf3.jfif",
     "static/media/testimonial3-3.jpg": "/linlin_website/static/media/testimonial3-3.8a750ede67f89d855f2e.jpg",
     "index.html": "/linlin_website/index.html",
-    "main.9453bc4e.css.map": "/linlin_website/static/css/main.9453bc4e.css.map",
+    "main.25404a72.css.map": "/linlin_website/static/css/main.25404a72.css.map",
     "main.25eb231f.js.map": "/linlin_website/static/js/main.25eb231f.js.map",
     "787.c3723b78.chunk.js.map": "/linlin_website/static/js/787.c3723b78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9453bc4e.css",
+    "static/css/main.25404a72.css",
     "static/js/main.25eb231f.js"
   ]
 }
