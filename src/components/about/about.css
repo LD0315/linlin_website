@@ -44,6 +44,10 @@
     margin-bottom: var(--mb-2-5);
 }
 
+#dark .about__description {
+    color: var(--text-color);
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
   @media screen and (max-width: 992px) {
