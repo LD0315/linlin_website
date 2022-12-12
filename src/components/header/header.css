@@ -40,6 +40,11 @@
     transition: .3s;
 }
 
+#dark .nav__menu {
+    background-color: grey;
+    box-shadow: 0 -1px 4px var(--title-color);
+}
+
 .nav__icon,
 .nav__close,
 .nav__toggle {
