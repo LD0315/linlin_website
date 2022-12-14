@@ -22,7 +22,10 @@ const Header = (props) => {
         <header className="header">
             <nav className="nav container">
                 <a href="index.html" className="nav__logo">Linlin</a>
-
+                <div className="switch">
+                    <label>{props.theme === "light" ? "Light Mode" : "Dark Mode"}</label>
+                    <ReactSwitch onChange={props.toggleTheme} checked={props.theme === "dark"} />
+                </div>
                 <div className={Toggle ? "nav__menu show-menu" : 
                 "nav__menu"}>
                     <ul className="nav__list grid">
@@ -76,11 +79,6 @@ const Header = (props) => {
                 <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
                     <i class="uil uil-apps"></i>
                 </div>
-
-                <div className="switch">
-            <label>{props.theme === "light" ? "Light Mode" : "Dark Mode"}</label>
-            <ReactSwitch onChange={props.toggleTheme} checked={props.theme === "dark"} />
-          </div>
             </nav>
         </header>
     )

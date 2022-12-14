@@ -62,6 +62,38 @@
     box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
 }
 
+#light {
+    background-color: #fff;
+}
+  
+#dark {
+    background-color: rgb(27, 27, 27);
+    color: #fff;
+}
+  
+.switch {
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    z-index: var(--z-modal);
+}
+  
+.switch label {
+    margin: 10px;
+    z-index: var(--z-modal);
+}
+  
+  
+#light .switch label {
+    color: var(--title-color);
+}
+  
+#dark .switch label {
+    color: var(--title-color);
+}
+
 /* for medium devices */
 @media screen and (max-width: 768px) {
     .header {
